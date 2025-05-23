@@ -218,21 +218,4 @@ class MyCima {
   }
 }
 
-const a = new MyCima();
-// a.getSerie("https://wecima.film/series/مسلسل-المؤسس-عثمان-1/").then((rep) => {
-//   console.log(rep);
-// });
-// a.getSeason("https://wecima.film/series/موسم-1-مسلسل-المؤسس-عثمان-1/").then((rep) => {
-//   console.log(rep);
-// });
-// a.getEpisode("https://wecima.film/watch/مسلسل-المؤسس-عثمان-موسم-1-حلقة-1-مترجمة-1/").then((rep) => {
-//   console.log(rep);
-// });
-// a.get_serie_by_previews("https://wecima.film/series/مسلسل-المؤسس-عثمان-1/").then((rep) => {
-//   console.log(rep);
-// });
-// a.get_season_by_previews("https://wecima.film/series/موسم-1-مسلسل-المؤسس-عثمان-1/").then((rep) => {
-//   console.log(rep);
-// });
-
 module.exports = { MyCima };
