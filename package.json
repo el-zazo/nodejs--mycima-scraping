@@ -1,13 +1,17 @@
 {
+  "name": "@elzazo/mycima-scraping",
+  "version": "1.1.0",
+  "description": "Get data from MyCima WebSite with improved code organization, error handling, and documentation",
+  "main": "index.js",
+  "scripts": {
+    "example:basic": "node examples/basic-usage.js",
+    "example:advanced": "node examples/advanced-usage.js"
+  },
+  "author": "elzazo",
+  "license": "ISC",
   "dependencies": {
     "@elzazo/console-messages": "^1.0.1",
     "axios": "^1.9.0",
     "cheerio": "^1.0.0"
-  },
-  "name": "@elzazo/mycima-scraping",
-  "version": "1.0.0",
-  "description": "Get data from MyCima WebSite",
-  "main": "index.js",
-  "author": "elzazo",
-  "license": "ISC"
+  }
 }
